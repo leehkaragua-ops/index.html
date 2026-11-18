@@ -1,0 +1,49 @@
+LS MAQUETE 3D — ESTUDO PRELIMINAR DE REFORMA (VERSÃO MOBILIADA, 11/2026)
+Rua João Fernandes Cardoso Filho, 40 – Porto Novo, Caraguatatuba-SP
+
+COMO ABRIR
+- Extraia a pasta e abra "index.html" no Chrome ou Edge atualizado (computador ou tablet).
+- Requer WebGL2 (padrão nos navegadores atuais). Em celulares mais simples a imagem pode demorar
+  alguns instantes para "assentar" (a qualidade é refinada progressivamente quando a câmera para).
+
+O QUE HÁ NO HTML
+- Maquete 3D original, preservada, com a alteração da integração da Sala 1 (estar rebaixado).
+- Mobiliário, decoração e iluminação artificial modelados diretamente na maquete.
+- Materiais PBR (madeira, pedra, metal, vidro, tecidos, cerâmica, porcelanato) e luz natural + artificial.
+- Botão "Luz": Dia · Fim de tarde · Nublado · Noite (luzes internas acesas).
+- Botão "Guarda-corpo de vidro": mostra/oculta o guarda-corpo de segurança do desnível.
+- Botão "🚶 Passeio interno": caminhada em primeira pessoa dentro da própria maquete.
+    Teclado: W/S ou ↑/↓ andar · A/D passo lateral · ←/→ ou Q/E girar · Shift acelera.
+    Mouse: clique na tela para olhar (ESC libera o cursor). Toque: arraste para olhar e use as setas.
+    Lista no rodapé: ir direto para Sala 2, Sala 1, Jantar, Cozinha, Ampliação, Suítes, pavimento superior...
+    A altura dos pisos acompanha a geometria (Sala 1 em −0,90, degraus existentes, escada até o superior).
+- Botão "⌂ Câmera inicial": volta à vista geral (também sai do passeio).
+- Botão "▶ Tour": percurso automático original da maquete.
+- Botão "📷 Imagem em alta qualidade": gera um PNG da vista atual (acumula 64 quadros).
+- Botão "🖼 Renders": galeria das imagens desta pasta "renders".
+- "Plantas 2D" e "Ideias de reforma": conteúdos da versão anterior, mantidos.
+
+RENDERS (pasta "renders")
+- Todas as imagens são renderizações da própria maquete WebGL atualizada (mesma geometria do HTML),
+  geradas pelo mesmo motor de renderização do arquivo, com acumulação de quadros (antisserrilhado e
+  sombras suaves). Não são imagens geradas por IA nem fotomontagens.
+- As imagens da pasta "conceitos" são da versão anterior (referências conceituais) e NÃO são renders
+  da maquete.
+
+PREMISSAS E LIMITES
+- Estudo preliminar: medidas, posições e móveis são proporções coerentes para apresentação, não
+  medidas executivas nem levantamento de campo.
+- Vigas mantidas entre a Sala 1 e as Salas 2/3: representadas com o fundo na altura das vergas
+  existentes no modelo (2,20 m). Seção, apoios e eventual necessidade de pilares devem ser
+  confirmados por projeto estrutural antes de qualquer demolição.
+- O guarda-corpo de vidro foi incluído por segurança (desnível de 90 cm). Altura e especificação a
+  detalhar no projeto executivo; os degraus existentes permanecem como acesso.
+- A ilha da cozinha cabe no espaço com circulações reduzidas (~0,75 m entre ilha e cadeiras do
+  jantar, ~1,05 m até a bancada). Confirmar com medidas reais.
+- Interior da edícula e da varanda: não detalhados (layout a levantar), como na versão anterior.
+- Colisões do passeio são aproximadas.
+
+ARQUIVOS DE SEGURANÇA (pasta "backup")
+- original_backup.html ............ maquete original (sem alterações)
+- index_versao_anterior_2026-11-18.html .. última versão funcional recebida (antes desta etapa)
+- renders_versao_anterior/ ........ imagens da versão anterior

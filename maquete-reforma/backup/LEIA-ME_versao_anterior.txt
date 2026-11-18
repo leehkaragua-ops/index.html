@@ -1,0 +1,23 @@
+LS MAQUETE 3D — ESTUDO PRELIMINAR PARA APRESENTAÇÃO
+
+ABRIR
+- Extraia a pasta e abra index.html no Chrome ou Edge atualizado.
+- A pasta conceitos deve permanecer junto ao index.html.
+- O HTML inclui a maquete 3D existente, passeio em primeira pessoa, visualização da planta 2D e um painel “Ideias de reforma”.
+
+PAINEL DE IDEIAS
+- “Ideias de reforma” apresenta duas direções de fachada baseadas na fotografia atual e referências conceituais de interiores mobiliados.
+- As imagens são estudos visuais de referência, não renders fiéis de cada cômodo da geometria 3D.
+- A proposta de interiores segue a organização indicada na planta preliminar: salas, cozinha, varanda, suítes, pavimento superior e laje aberta como potencial terraço futuro.
+
+PREMISSAS E LIMITES
+- A planta recebida indica áreas existentes, ampliações e pontos a conferir; não há levantamento métrico completo.
+- As dimensões, posições estimadas, escada, garagem, esquadrias, interior da edícula e ampliações devem ser conferidos em visita.
+- Mobiliário e acabamentos são sugestões para discussão com a cliente, não especificação executiva.
+- A geometria original da maquete e o backup original foram preservados.
+- O passeio em primeira pessoa já existia; colisões são aproximadas.
+- O HTML usa WebGL2 e não realiza path tracing.
+
+CORREÇÃO DE COMPATIBILIDADE (18/11/2026)
+- As três imagens do painel conceitual foram incorporadas diretamente ao HTML como dados embutidos. Assim, “Ideias de reforma” não depende de caminhos relativos da pasta conceitos para exibir as imagens.
+- Recomenda-se abrir o index.html atualizado ou extrair novamente o ZIP atualizado.
