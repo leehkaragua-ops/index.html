@@ -59,3 +59,9 @@ ZIP `LS_Maquete_Estudo_Preliminar_Cliente_CORRIGIDO.zip`, pasta `LS_Maquete_Inte
 - Renderização em tempo real (rasterização WebGL2), não path tracing.
 - Medidas, mobiliário e materiais não são executivos.
 - As vigas e o guarda-corpo precisam de validação técnica.
+
+## 7. Ajustes de 19/11/2026
+- Pavimento superior: piso trocado para o mesmo porcelanato claro (90×90) das áreas sociais do térreo, em quartos, estar, suíte e chegada da escada.
+- Janela redonda da suíte superior (parede leste, x = 9,26): centralizada na parede do quarto (eixo em y = 13,80, meio do vão 11,90–15,70). Antes estava em y = 14,55.
+- Armário da suíte superior transferido para a parede sul, liberando a parede da janela. Ponto do passeio "Superior · suíte" reposicionado.
+- Renders 08 e 09 refeitos.
